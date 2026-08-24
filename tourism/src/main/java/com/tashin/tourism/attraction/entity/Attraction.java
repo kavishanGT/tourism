@@ -1,0 +1,97 @@
+package com.tashin.tourism.attraction.entity;
+
+import java.math.BigDecimal;
+import java.time.Instant;
+import java.util.UUID;
+
+import org.locationtech.jts.geom.Point;
+
+import com.tashin.tourism.destination.entity.Destination;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.PrePersist;
+import jakarta.persistence.PreUpdate;
+import jakarta.persistence.Table;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Entity
+@Table(name = "attractions")
+@Getter
+@Setter
+@NoArgsConstructor
+public class Attraction {
+
+    @Id
+    @GeneratedValue
+    private UUID id;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "destination_id")
+    private Destination destination;
+
+    @Column(nullable = false, length = 200)
+    private String name;
+
+    @Column(nullable = false, unique = true, length = 220)
+    private String slug;
+
+    @Column(name = "short_description", columnDefinition = "TEXT")
+    private String shortDescription;
+
+    @Column(columnDefinition = "TEXT")
+    private String description;
+
+    @Column(columnDefinition = "geography(Point,4326)", nullable = false)
+    private Point location;
+
+    @Column(name = "duration_minutes")
+    private Integer durationMinutes;
+
+    @Column(name = "price_from", precision = 12, scale = 2)
+    private BigDecimal priceFrom;
+
+    /** CHAR(3) stored as bpchar in PostgreSQL */
+    @Column(columnDefinition = "bpchar(3)")
+    private String currency;
+
+    @Column(nullable = false, length = 30)
+    private String status;
+
+    @Column(nullable = false)
+    private boolean featured;
+
+    @Column(name = "seo_title", length = 255)
+    private String seoTitle;
+
+    @Column(name = "seo_description", columnDefinition = "TEXT")
+    private String seoDescription;
+
+    @Column(name = "created_at")
+    private Instant createdAt;
+
+    @Column(name = "updated_at")
+    private Instant updatedAt;
+
+    @Column(name = "deleted_at")
+    private Instant deletedAt;
+
+    @PrePersist
+    void onCreate() {
+        Instant now = Instant.now();
+        createdAt = now;
+        updatedAt = now;
+    }
+
+    @PreUpdate
+    void onUpdate() {
+        updatedAt = Instant.now();
+    }
+}
