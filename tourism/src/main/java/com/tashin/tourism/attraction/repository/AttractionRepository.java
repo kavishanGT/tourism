@@ -17,6 +17,8 @@ public interface AttractionRepository
 
         Optional<Attraction> findBySlugAndDeletedAtIsNull(String slug);
 
+        long countByStatus(String status);
+
         /**
          * PostGIS spatial query — finds attractions within :radius meters of the
          * given point, ordered by distance ascending.
