@@ -45,9 +45,10 @@ public class SecurityConfig {
                                 "/v1/restaurants/**",
                                 "/v1/accommodations/**",
                                 "/v1/regions/**",
-                                "/v1/categories/**")
+                                "/v1/categories/**",
+                                "/v1/search/**")
                         .permitAll()
-                        .requestMatchers("/v1/admin/**").hasRole("ADMIN")
+                        .requestMatchers("/v1/admin/**").hasAnyRole("ADMIN", "SUPER_ADMIN")
                         .requestMatchers("/v1/provider/**").hasRole("PROVIDER")
                         .anyRequest().authenticated())
                 .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);

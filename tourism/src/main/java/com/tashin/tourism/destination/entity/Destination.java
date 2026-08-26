@@ -80,6 +80,15 @@ public class Destination {
     @Column(name = "deleted_at")
     private Instant deletedAt;
 
+    @Column(name = "published_at")
+    private Instant publishedAt;
+
+    @Column(name = "published_by")
+    private UUID publishedBy;
+
+    @Column(name = "rejection_reason", columnDefinition = "TEXT")
+    private String rejectionReason;
+
     @PrePersist
     void onCreate() {
         Instant now = Instant.now();

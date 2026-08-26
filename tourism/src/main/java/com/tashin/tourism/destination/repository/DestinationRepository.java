@@ -15,4 +15,6 @@ public interface DestinationRepository
         Optional<Destination> findBySlugAndDeletedAtIsNull(String slug);
 
         boolean existsBySlugAndDeletedAtIsNull(String slug);
+
+        long countByStatus(String status);
 }

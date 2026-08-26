@@ -13,4 +13,6 @@ public interface ExperienceRepository
                 JpaSpecificationExecutor<Experience> {
 
         Optional<Experience> findBySlugAndDeletedAtIsNull(String slug);
+
+        long countByStatus(String status);
 }

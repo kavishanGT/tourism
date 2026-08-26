@@ -1,7 +1,8 @@
 INSERT INTO roles (name, description)
 VALUES ('USER', 'Regular tourist user'),
     ('PROVIDER', 'Tourism service provider'),
-    ('ADMIN', 'Platform administrator');
+    ('ADMIN', 'Platform administrator'),
+    ('SUPER_ADMIN', 'System administrator');
 INSERT INTO interests (name, slug)
 VALUES ('Beach', 'beach'),
     ('Wildlife', 'wildlife'),
