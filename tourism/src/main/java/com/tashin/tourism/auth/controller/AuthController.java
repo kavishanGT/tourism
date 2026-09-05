@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.tashin.tourism.auth.dto.LoginRequest;
+import com.tashin.tourism.auth.dto.RefreshRequest;
 import com.tashin.tourism.auth.dto.RegisterRequest;
 import com.tashin.tourism.auth.service.AuthService;
 import com.tashin.tourism.common.api.ApiResponse;
@@ -32,5 +33,10 @@ public class AuthController {
     @PostMapping("/login")
     public ResponseEntity<?> login(@Valid @RequestBody LoginRequest request) {
         return ResponseEntity.ok(ApiResponse.success(authService.login(request)));
+    }
+
+    @PostMapping("/refresh")
+    public ResponseEntity<?> refresh(@Valid @RequestBody RefreshRequest request) {
+        return ResponseEntity.ok(ApiResponse.success(authService.refreshToken(request)));
     }
 }
