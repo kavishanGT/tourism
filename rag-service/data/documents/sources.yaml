@@ -1,0 +1,103 @@
+sources:
+
+  - id: adventure-toolkit
+    file_name: Adventure_Tourism_Toolkit.pdf
+    title: Adventure Tourism Toolkit
+    category: adventure
+    source_name: SLTDA
+    source_type: official
+    language: en
+    trust_level: high
+    source_url: "https://www.sltda.gov.lk/"
+
+  - id: art-culture-heritage-toolkit
+    file_name: Art_Culture_Heritage_Toolkit.pdf
+    title: Art, Culture & Heritage Tourism Toolkit
+    category: culture
+    source_name: SLTDA
+    source_type: official
+    language: en
+    trust_level: high
+    source_url: "https://www.sltda.gov.lk/"
+
+  - id: festivals-toolkit
+    file_name: Festivals_Tourism_Toolkit.pdf
+    title: Festivals Tourism Toolkit
+    category: culture
+    source_name: SLTDA
+    source_type: official
+    language: en
+    trust_level: high
+    source_url: "https://www.sltda.gov.lk/"
+
+  - id: ella-master-plan-part-a
+    file_name: ELLA_VOLUME_1_Part_A_compressed679831860.pdf
+    title: Tourism Development Master Plan for Ella - Volume 1 Part A
+    category: destination
+    destination: Ella
+    source_name: SLTDA
+    source_type: government
+    language: en
+    trust_level: high
+    source_url: "https://www.sltda.gov.lk/en/sri-lanka-tourism-development-authority-publications"
+
+  - id: ella-master-plan-part-b
+    file_name: ELLA_VOLUME_1_Part_B_compressed2395158019.pdf
+    title: Tourism Development Master Plan for Ella - Volume 1 Part B
+    category: destination
+    destination: Ella
+    source_name: SLTDA
+    source_type: government
+    language: en
+    trust_level: high
+    source_url: "https://www.sltda.gov.lk/en/sri-lanka-tourism-development-authority-publications"
+
+  - id: food-drink-toolkit
+    file_name: Food_drink_Tourism_Toolkit.pdf
+    title: Food & Drink Tourism Toolkit
+    category: gastronomy
+    source_name: SLTDA
+    source_type: official
+    language: en
+    trust_level: high
+    source_url: "https://www.sltda.gov.lk/"
+
+  - id: operational-guidelines
+    file_name: SL_Tourism_Operational_Guidelines.pdf
+    title: Sri Lanka Tourism Operational Guidelines
+    category: travel_tips
+    source_name: SLTDA
+    source_type: government
+    language: en
+    trust_level: high
+    source_url: "https://srilanka.travel/pdf/SL_Tourism_Operational_Guidelines.pdf"
+
+  - id: sri-lanka-general-guide
+    file_name: Sri_Lanka-Final_V6_Edited850147500.pdf
+    title: Sri Lanka Tourism Official Guide
+    category: general
+    source_name: Sri Lanka Tourism
+    source_type: official
+    language: en
+    trust_level: high
+    source_url: "https://www.srilanka.travel/"
+
+  - id: year-in-review-2025
+    file_name: Year_in_Review_2025_Final_updated_Report_2026_04_02-1.pdf
+    title: Sri Lanka Tourism Year in Review 2025
+    category: statistics
+    source_name: SLTDA
+    source_type: government
+    language: en
+    trust_level: high
+    source_url: "https://www.sltda.gov.lk/"
+
+  - id: nature-wildlife-toolkit
+    file_name: Nature_wildlife_Tourism_Toolkit.pdf
+    title: Nature & Wildlife Tourism Toolkit
+    category: wildlife
+    source_name: SLTDA
+    source_type: official
+    language: en
+    trust_level: high
+    source_url: "https://www.sltda.gov.lk/"

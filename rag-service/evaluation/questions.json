@@ -1,0 +1,145 @@
+[
+    {
+        "id": "q001",
+        "query": "What are the main attractions in Ella?",
+        "expected_sources": [
+            "ELLA_VOLUME_1_Part_A_compressed679831860.pdf",
+            "ELLA_VOLUME_1_Part_B_compressed2395158019.pdf"
+        ]
+    },
+    {
+        "id": "q002",
+        "query": "What adventure tourism activities are available in Sri Lanka?",
+        "expected_sources": [
+            "Adventure_Tourism_Toolkit.pdf"
+        ]
+    },
+    {
+        "id": "q003",
+        "query": "What wildlife tourism experiences are available in Sri Lanka?",
+        "expected_sources": [
+            "Nature_wildlife_Tourism_Toolkit.pdf"
+        ]
+    },
+    {
+        "id": "q004",
+        "query": "What cultural heritage experiences can tourists have in Sri Lanka?",
+        "expected_sources": [
+            "Art_Culture_Heritage_Toolkit.pdf"
+        ]
+    },
+    {
+        "id": "q005",
+        "query": "What food and drink experiences can tourists have in Sri Lanka?",
+        "expected_sources": [
+            "Food_drink_Tourism_Toolkit.pdf"
+        ]
+    },
+    {
+        "id": "q006",
+        "query": "What festivals are important for tourism in Sri Lanka?",
+        "expected_sources": [
+            "Festivals_Tourism_Toolkit.pdf"
+        ]
+    },
+    {
+        "id": "q007",
+        "query": "What are the tourism development opportunities in Ella?",
+        "expected_sources": [
+            "ELLA_VOLUME_1_Part_A_compressed679831860.pdf",
+            "ELLA_VOLUME_1_Part_B_compressed2395158019.pdf"
+        ]
+    },
+    {
+        "id": "q008",
+        "query": "What types of nature based tourism can be developed in Sri Lanka?",
+        "expected_sources": [
+            "Nature_wildlife_Tourism_Toolkit.pdf"
+        ]
+    },
+    {
+        "id": "q009",
+        "query": "What adventure activities can tourists participate in?",
+        "expected_sources": [
+            "Adventure_Tourism_Toolkit.pdf"
+        ]
+    },
+    {
+        "id": "q010",
+        "query": "What cultural and heritage tourism products can Sri Lanka offer?",
+        "expected_sources": [
+            "Art_Culture_Heritage_Toolkit.pdf"
+        ]
+    },
+    {
+        "id": "q011",
+        "query": "What should tourists know about tourism operations in Sri Lanka?",
+        "expected_sources": [
+            "SL_Tourism_Operational_Guidelines.pdf"
+        ]
+    },
+    {
+        "id": "q012",
+        "query": "What are the guidelines for tourists arriving in Sri Lanka?",
+        "expected_sources": [
+            "SL_Tourism_Operational_Guidelines.pdf"
+        ]
+    },
+    {
+        "id": "q013",
+        "query": "What does Sri Lanka's tourism strategic plan focus on?",
+        "expected_sources": [
+            "Sri_Lanka-Final_V6_Edited850147500.pdf"
+        ]
+    },
+    {
+        "id": "q014",
+        "query": "What are the strategic priorities for tourism development in Sri Lanka?",
+        "expected_sources": [
+            "Sri_Lanka-Final_V6_Edited850147500.pdf"
+        ]
+    },
+    {
+        "id": "q015",
+        "query": "What were the major tourism developments in Sri Lanka during 2025?",
+        "expected_sources": [
+            "Year_in_Review_2025_Final_updated_Report_2026_04_02-1.pdf"
+        ]
+    },
+    {
+        "id": "q016",
+        "query": "What tourism statistics are reported for Sri Lanka in 2025?",
+        "expected_sources": [
+            "Year_in_Review_2025_Final_updated_Report_2026_04_02-1.pdf"
+        ]
+    },
+    {
+        "id": "q017",
+        "query": "What makes Ella an important tourism destination?",
+        "expected_sources": [
+            "ELLA_VOLUME_1_Part_A_compressed679831860.pdf",
+            "ELLA_VOLUME_1_Part_B_compressed2395158019.pdf"
+        ]
+    },
+    {
+        "id": "q018",
+        "query": "What wildlife tourism opportunities exist in Sri Lanka?",
+        "expected_sources": [
+            "Nature_wildlife_Tourism_Toolkit.pdf"
+        ]
+    },
+    {
+        "id": "q019",
+        "query": "How can food tourism be developed in Sri Lanka?",
+        "expected_sources": [
+            "Food_drink_Tourism_Toolkit.pdf"
+        ]
+    },
+    {
+        "id": "q020",
+        "query": "How can festivals contribute to tourism in Sri Lanka?",
+        "expected_sources": [
+            "Festivals_Tourism_Toolkit.pdf"
+        ]
+    }
+]
